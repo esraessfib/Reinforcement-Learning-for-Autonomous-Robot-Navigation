@@ -19,13 +19,14 @@ The goal is to demonstrate a **complete RL pipeline**:
 ├── simulateur.py              # Realistic 2D multi-robot simulator
 │
 ├── export_weights.py          # Export trained NN weights for hardware use
-├── quantize_and_coe.py        # Quantization + COE file generation(FPGA)
+├── quantize_and_coe.py        # Quantization + COE file generation (FPGA)
 │
 ├── models/                    # Trained DQN models
 ├── logs/                      # TensorBoard logs
 ├── docs/
 │   └── tensorboard_results.png
 └── README.md
+
 
 
 
@@ -211,7 +212,7 @@ The following metrics are tracked:
 
 ### 📈 TensorBoard Results
 
-![TensorBoard Training Results](docs/tensorboard_results.png)
+![TensorBoard Training Results](docs/tensorboard.png)
 
 **Interpretation:**
 The curves show a clear increase in the average reward and episode length, while the exploration rate decreases progressively.
