@@ -15,16 +15,24 @@ The goal is to demonstrate a **complete RL pipeline**:
 ###  Project Architecture
 
 ├── env_simple.py              # Minimal Gym environment (4 sensors, discrete actions)
+
 ├── train_dqn.py               # DQN training (small neural network)
+
 ├── simulateur.py              # Realistic 2D multi-robot simulator
 │
+
 ├── export_weights.py          # Export trained NN weights for hardware use
+
 ├── quantize_and_coe.py        # Quantization + COE file generation (FPGA)
 │
+
 ├── models/                    # Trained DQN models
+
 ├── logs/                      # TensorBoard logs
+
 ├── docs/
 │   └── tensorboard_results.png
+
 └── README.md
 
 
